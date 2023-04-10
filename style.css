@@ -14,7 +14,7 @@ nav{
     padding: 20px;
 }
 .logo{
-    margin-top: 2px;
+    margin-top: 7px;
 }
 nav ul{
     display: flex;
@@ -34,4 +34,60 @@ nav ul li a{
 }
 .profile img{
     height: 45px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    width: 90vw;
+    background-color: #fff;
+    border-radius: 25px;
+}
+.showcase,.details{
+    background-color: #fff;
+    border: 1px solid orange;
+    margin: 10px;
+}
+.container .card .showcase .main img{
+    height: 60vh;
+    border-radius: 10px;
+    margin: 10px;
+}
+.container .card .showcase .secondary{
+    display: flex;
+    justify-content: space-around;
+}
+.container .card .showcase .secondary img{
+    height: 10vh;
+    border-radius: 10px;
+    margin: 10px;
+}
+.container .card .details h4{
+    color: orange;
+    margin-left: 20px;
+}
+.container .card .details h1{
+    font-weight: 700;
+    color: hsl(220, 13%, 13%);
+    margin: 20px;
+}
+.container .card .details p{
+    margin-left: 20px;
+}
+.container .card .details .price{
+    display: flex;
+}
+.container .card .details .price p{
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin: 20px 20px 0;
+}
+.container .card .details .price .discount{
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
+    padding: 0 10px;
 }
