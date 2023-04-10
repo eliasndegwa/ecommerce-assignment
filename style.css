@@ -91,3 +91,23 @@ nav ul li a{
     background-color: hsl(25, 100%, 94%);
     padding: 0 10px;
 }
+.btn-area{
+    display: flex;
+    align-items: center;
+    /* gap: 5px; */
+    margin-left: 20px;
+    margin-top: 20px;
+}.btn-area button{
+    color: hsl(26, 100%, 55%);
+    background-color: #f7f7fc;
+    border-radius: 5px;
+    border: none;
+    width: 30px;
+    padding: 5px;
+}
+.btn-area .add{
+    width: 20vw;
+    background-color: hsl(26, 100%, 55%);
+    color: #f7f7fc;
+    align-content: center;
+}
