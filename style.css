@@ -4,9 +4,8 @@
     box-sizing: border-box;
     font-family: 'Kumbh Sans', sans-serif;
 }
-body{
-    background-color: #000;
-}
+
+/* Navbar styling */
 nav{
     background-color: #fff;
     display: flex;
@@ -35,6 +34,8 @@ nav ul li a{
 .profile img{
     height: 45px;
 }
+
+/* Main container styling */
 .container{
     display: flex;
     justify-content: center;
@@ -44,13 +45,13 @@ nav ul li a{
     display: flex;
     width: 90vw;
     background-color: #fff;
-    border-radius: 25px;
 }
 .showcase,.details{
     background-color: #fff;
-    border: 1px solid orange;
     margin: 10px;
 }
+
+/* Products showcase styling */
 .container .card .showcase .main img{
     height: 60vh;
     border-radius: 10px;
@@ -65,9 +66,12 @@ nav ul li a{
     border-radius: 10px;
     margin: 10px;
 }
+
+/* product details styling */
 .container .card .details h4{
     color: orange;
     margin-left: 20px;
+    margin-top: 40px;
 }
 .container .card .details h1{
     font-weight: 700;
@@ -91,6 +95,8 @@ nav ul li a{
     background-color: hsl(25, 100%, 94%);
     padding: 0 10px;
 }
+
+/* Pricing sector styling */
 .btn-area{
     display: flex;
     align-items: center;
